@@ -22,7 +22,7 @@ describe("End TO End Testing Of ToDo App",()=>{
     //  add todos 
     it("Add 4 New Todos",()=>{
         while (count < 4) {
-            cy.add_todo('helo'+count); // add_todo command is created [check -> ../cypress/support/commands.js]
+            cy.add_todo('Todo '+count); // add_todo command is created [check -> ../cypress/support/commands.js]
             count++;
         }
     });
