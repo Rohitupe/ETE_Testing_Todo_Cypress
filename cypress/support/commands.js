@@ -25,12 +25,12 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
 Cypress.Commands.add("add_todo", (text)=>{
-    cy.get('input[type=text]').type(text)
-    cy.get('input[type=submit]').click()
+    cy.get('input[type=text]').type(text);
+    cy.get('input[type=submit]').click();
 });
 
 Cypress.Commands.add("update_todo",(text)=>{
-    cy.get('#content').clear()
+    cy.get('#content').clear();
     cy.get('#content').type(text);
-    cy.get("input[type=submit]").click()
+    cy.get("input[type=submit]").click();
 })
