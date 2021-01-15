@@ -19,7 +19,9 @@
     cy.get('input[type=text]').type(text)
     cy.get('input[type=submit]').click()
 });
-
+</code>
+<br />
+<code>
 Cypress.Commands.add("update_todo",(text)=>{
     cy.get('#content').clear()
     cy.get('#content').type(text);
