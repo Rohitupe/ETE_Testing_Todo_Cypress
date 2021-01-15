@@ -15,12 +15,15 @@
  <h5> Check File - cypress/support/commands.js</h5>
  
  <p>To add New Todo - add_todo()</p>
+ 
+<p>
 <code>
  Cypress.Commands.add("add_todo", (text)=>{
     cy.get('input[type=text]').type(text);
     cy.get('input[type=submit]').click();
 });
 </code>
+ </p>
 <br />
 
 <p> To Update Existing Todo - update_todo()</p>
