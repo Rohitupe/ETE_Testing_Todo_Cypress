@@ -14,6 +14,7 @@
  
  <h5> Check File - cypress/support/commands.js</h5>
  
+ <p>To add New Todo - add_todo()</p>
  <code>
  Cypress.Commands.add("add_todo", (text)=>{
     cy.get('input[type=text]').type(text)
@@ -21,6 +22,7 @@
 });
 </code>
 <br />
+<p> To Update Existing Todo - update_todo()</p>
 <code>
 Cypress.Commands.add("update_todo",(text)=>{
     cy.get('#content').clear()
