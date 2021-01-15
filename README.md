@@ -27,10 +27,12 @@
 <br />
 
 <p> To Update Existing Todo - update_todo()</p>
+<p>
 <code>
 Cypress.Commands.add("update_todo",(text)=>{
     cy.get('#content').clear();
     cy.get('#content').type(text);
     cy.get("input[type=submit]").click();
 });
+ </p>
 </code>
