@@ -1,9 +1,10 @@
 /// <reference types ="cypress" />
 
-// npm i --save-dev start-server-and-test
+// End TO End testing On TODO APP
 /*
- used to start server and start test at the same time 
- useful for end to end testing 
+ Created 2 commands 
+ 1. To add New Todo - add_todo()
+ 2. To Update Existing Todo - update_todo()
  */
 
 describe("End TO End Testing Of ToDo App",()=>{
